@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.7em 1em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

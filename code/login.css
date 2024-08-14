@@ -1,0 +1,46 @@
+body {
+    background-image: url('login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.form-container {
+    width: max-content;
+    margin: 300px auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
